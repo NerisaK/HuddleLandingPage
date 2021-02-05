@@ -19,7 +19,7 @@ body {
 
 h1 {font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 23px;}
 
-p {font-size: 15px; padding: 10px 12%;}
+p {font-size: 15px; padding: 10px 12%; color: hsl(300, 20%, 90%);}
 
 .huddle {max-width: 40%; margin: 30px 0 30px 20px; display: block;}
 .picture {max-width: 300px; height: auto;}
@@ -36,6 +36,8 @@ button {
     padding: 8px 70px;
     margin: 10px auto 50px auto;
 }
+
+button:hover {background-color:hsl(300, 69%, 71%); color: white; cursor: pointer;}
 
 /* Style all font awesome icons */
 .fa { 
@@ -54,4 +56,33 @@ button {
 }
 
 footer a {color:thistle;}
-footer a:hover {color: hsl(300, 65%, 75%);}
+footer a:hover {color: hsl(300, 65%, 75%); cursor: pointer;}
+
+@media (min-width: 1200px) {
+
+    .column {
+    margin: auto;
+    width: auto;    
+    background-image: url(images/bg-desktop.svg);
+    background-size: auto;
+    text-align: left;
+    }
+
+    h1 {font-size: 30px; padding-top: 40px;}
+
+    p {padding-right: 17%;}
+
+    button {        
+        padding: 15px 50px;
+        margin: 10px 0;
+    }
+
+    .social {padding: 0 17%;}
+    #fb, #tw, #in {    
+        padding: 10px;
+    }
+
+    .huddle {height: 40px; margin-left: 40px;}
+    .picture {max-width: 50%; height: auto; float: left; margin: 10px 60px 10px 40px;}
+    footer {clear:both; display: block; text-align: right;}
+}
