@@ -1,0 +1,57 @@
+body {
+    background-color: hsl(257, 40%, 49%);    
+    color:white;
+    text-align: center; 
+    margin: auto;    
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    width: auto;
+}
+
+.column {
+    margin: auto;
+    width: 335px;
+    padding: 10px;
+    background-image: url(images/bg-mobile.svg);
+    background-size: auto;
+    background-repeat: no-repeat;  
+    }
+
+h1 {font-family: 'Poppins', sans-serif; font-weight: 600; font-size: 23px;}
+
+p {font-size: 15px; padding: 10px 12%;}
+
+.huddle {max-width: 40%; margin: 30px 0 30px 20px; display: block;}
+.picture {max-width: 300px; height: auto;}
+
+
+button {
+    color:hsl(257, 40%, 49%);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px 70px;
+    margin: 10px auto 50px auto;
+}
+
+/* Style all font awesome icons */
+.fa { 
+    margin: 5px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+  }
+
+  #fb, #tw, #in {    
+    padding: 2%;
+    width: 13px;    
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 12px;
+}
+
+footer a {color:thistle;}
+footer a:hover {color: hsl(300, 65%, 75%);}
